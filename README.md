@@ -54,7 +54,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@deno/mod.js';
+import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@v0.2.0-deno/mod.js';
 ```
 
 #### isRealFloatingPointDataType( value )
@@ -94,7 +94,7 @@ bool = isRealFloatingPointDataType( 'uint32' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@deno/mod.js';
+import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@v0.2.0-deno/mod.js';
 
 var bool = isRealFloatingPointDataType( 'float32' );
 // returns true
