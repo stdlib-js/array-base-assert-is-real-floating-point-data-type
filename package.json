@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/array-dtypes": "^0.3.0"
+    "@stdlib/array-dtypes": "^0.3.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
