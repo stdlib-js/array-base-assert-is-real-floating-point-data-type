@@ -54,6 +54,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-assert-is-real-floating-point-data-type/tags). For example,
+
+```javascript
 import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@v0.2.2-esm/index.mjs';
 ```
 
@@ -99,7 +104,7 @@ bool = isRealFloatingPointDataType( 'uint32' );
 <body>
 <script type="module">
 
-import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@v0.2.2-esm/index.mjs';
+import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@esm/index.mjs';
 
 var bool = isRealFloatingPointDataType( 'float32' );
 // returns true
