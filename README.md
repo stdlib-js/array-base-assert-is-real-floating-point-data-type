@@ -45,25 +45,7 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-base-assert-is-real-floating-point-data-type
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
@@ -72,7 +54,7 @@ To view installation and usage instructions specific to each branch build, be su
 <!-- eslint-disable id-length -->
 
 ```javascript
-var isRealFloatingPointDataType = require( '@stdlib/array-base-assert-is-real-floating-point-data-type' );
+import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@deno/mod.js';
 ```
 
 #### isRealFloatingPointDataType( value )
@@ -112,7 +94,7 @@ bool = isRealFloatingPointDataType( 'uint32' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var isRealFloatingPointDataType = require( '@stdlib/array-base-assert-is-real-floating-point-data-type' );
+import isRealFloatingPointDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-real-floating-point-data-type@deno/mod.js';
 
 var bool = isRealFloatingPointDataType( 'float32' );
 // returns true
@@ -180,7 +162,7 @@ bool = isRealFloatingPointDataType( 'foo' );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
